@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: exo2;
+    src: url(../assets/fonts/Exo2-VariableFont_wght.ttf);
+    font-variation-settings: 'wght' 800;
+}
+@font-face {
+    font-family: rubik;
+    src: url(../assets/fonts/Rubik-VariableFont_wght.ttf);
+    font-variation-settings: 'wght' 500;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:white;
+    height: 100vh;
+}
+
+/*NAV*/
+.navbar{
+    font-size: 1.5rem;
+    font-family: rubik;
+    font-variation-settings: 'wght' 400;
+    background-color: transparent;
+    height: 100px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: background-color 0.5s ease-in-out; /* transición para el estilo por defecto */
+    box-shadow: 0 3px 10px rgba(21, 34, 57, 0.15);
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(136, 175, 185, 0.8);
+    box-shadow: 0 3px 10px rgba(21, 34, 57, 0.15);
+    transition: background-color 0.5s ease-in-out; /* transición para la clase sticky */
+  }
+  #content {
+    margin-top: 20px; /* ajusta este valor según la altura de tu barra de navegación */
+  }
+
+.btn1-nav{
+    font-size: 1.5rem;
+    padding: 0.7em 1.7em;
+    border-radius:15px;
+    transition: all .3s;
+    cursor: pointer;
+}
+.btn1-nav:hover{
+    box-shadow: -2px -2px 8px #566881, 2px 2px 8px #9ABAC4;
+    color:aliceblue;
+}
+.btn2-nav{
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding: 0.7em 1.7em;
+    border-radius:15px;
+    transition: all .3s;
+    cursor: pointer;
+}
+.btn2-nav:hover{
+    box-shadow: -2px -2px 8px #566881, 2px 2px 8px #9ABAC4;
+    color:aliceblue;
+}
+.btn3-nav{
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding: 0.7em 1.7em;
+    border-radius:15px;
+    transition: all .3s;
+    cursor: pointer;
+}
+.btn3-nav:hover{
+    box-shadow: -2px -2px 8px #566881, 2px 2px 8px #9ABAC4;
+    color:aliceblue;
+}
+
+
+/*CONTACTO*/
+.titulos{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: exo2;
+    font-variation-settings: 'wght' 700;
+    color: #9ABAC4;
+}
+
+
+.text-contacto{
+    font-size: 1.8rem;
+    color: #152239;
+    font-family: rubik;
+    font-variation-settings: 'wght' 450;
+    display: relative;
+    margin: 10px;
+}
+.divider{
+    color: transparent;
+}
+
+
+.enviar{
+    background: #152239;
+    color: white;
+    border: transparent;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.enviar:hover{
+    background-color: #566881;
+}
+
+.form{
+    font-size: 1.2rem;
+    color: #152239;
+    font-family: rubik;
+    font-variation-settings: 'wght' 400;
+}
+.formulario{
+    margin-top: 5px;
+}
+
+#nombre{
+    background: #9ABAC4;
+}
+#celular{
+    background: #9ABAC4;
+}
+
+/*FOOTER*/
+
+.enviar{
+    background: #152239;
+    color: white;
+    border: transparent;
+    border-radius: 15px;
+}
+.enviar:hover{
+    background-color: #566881;
+}
+
+.footer{
+    background: #88AFB9;
+}
+.line:empty {
+    background-color:#152239;
+    height: 0.1rem;
+    width: 100%;
+    border-radius: 2rem;
+    margin: 5px;
+}
+.reserved{
+    font-size: 1.2rem;
+    color: #152239;
+    font-family: rubik;
+    font-variation-settings: 'wght' 400;
+}
+.form{
+    font-size: 1.2rem;
+    color: #152239;
+    font-family: rubik;
+    font-variation-settings: 'wght' 400;
+}
+.formulario{
+    margin-top: 5px;
+}
+
+
+.items-footer{
+    margin-bottom: 10px;
+}
