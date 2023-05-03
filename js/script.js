@@ -35,7 +35,7 @@ let montañas1 = document.getElementById('montañas1')
 window.addEventListener('scroll', function() {
     let value = window.scrollY;
 
-    luna.style.top = value * 0.5+ 'px'
+    luna.style.top = value * 0.8 + 'px';
     btnInicio.style.margintop = value * -0.5 + 'px';
     estrellas.style.left = value * 0.5 + 'px'
     arboles.style.top = value * 0.5 + 'px';
@@ -46,16 +46,16 @@ window.addEventListener('scroll', function() {
 
 //MODAL
 
-const modalBtn = document.querySelector(".modal-btn");
-const modal = document.querySelector(".modal-overlay");
-const closeBtn = document.querySelector(".close-btn");
+// const modalBtn = document.querySelector(".modal-btn");
+// const modal = document.querySelector(".modal-overlay");
+// const closeBtn = document.querySelector(".close-btn");
 
-modalBtn.addEventListener("click",function(){
-    modal.classList.add("open-modal");
-});
-closeBtn.addEventListener("click",function(){
-    modal.classList.remove("open-modal");
-});
+// modalBtn.addEventListener("click",function(){
+//     modal.classList.add("open-modal");
+// });
+// closeBtn.addEventListener("click",function(){
+//     modal.classList.remove("open-modal");
+// });
 
 
 //ANIMACIONES
