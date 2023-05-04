@@ -68,4 +68,5 @@ AOS.init({
   anchorPlacement: 'top-bottom',
 });
 
+//SLIDER JQUERY Y SLICK
 
