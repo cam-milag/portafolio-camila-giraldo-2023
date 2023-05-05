@@ -8,8 +8,8 @@
     <!--ICON NOMBRE DE LA PAGINA-->
     <link rel="icon" href="assets/obturador.ico">
     <!--LIBRERIA SLICK-->
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
     <!--ANIMACION SCROLL-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--BOOTSTRAP-->
@@ -18,6 +18,15 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!--LOADING-->
+    <!-- <div class="centrado hidden" id="onload">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div> -->
     <!--BARRA NAVEGACION-->
     <header class="header" id="header">
         <nav class="navbar navbar-expand-lg content-navbar" id="navbar">
@@ -112,7 +121,7 @@
                   <h1 class="modal-title titulo-modal" id="exampleModalLabel">Autobiografía</h1>
                   <button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <p class="text-autobiografia">
                         Nací el 23 de julio de 2005 en Bogotá, Colombia. Me crié
                         en el barrio Patio Bonito de la localidad de Kennedy.
@@ -153,25 +162,27 @@
                     <br>
                     <h2 class="titulo-modal d-flex justify-content-center align-items-center">Cursos</h2>
                     <div class="row">
-                         <div class="col-3">
-                            <p class="text-estudiosCurso">-Fotografía ajustes de color y edición de imagen.
-                                 <br>
-                                SENA-2022</p>
-                        </div>
-                        <div class="col-3">
-                            <p class="text-estudiosCurso">-English dot works 1, 2 y 3.
-                                 <br>
-                                SENA-2022</p>
-                        </div>
-                        <div class="col-3">
-                            <p class="text-estudiosCurso">-Principios de Photoshop.
-                                 <br>
-                                DOMESTIKA-2022</p>
-                        </div>
-                        <div class="col-3">
-                            <p class="text-estudiosCurso">-Desarrollo de nuevas estrategias comerciales.
-                                 <br>
-                                SENA-2023</p>
+                        <div class="slideshow">
+                            <div>
+                                <p class="text-estudiosCurso">-Fotografía ajustes de color y edición de imagen.
+                                    <br>
+                                    SENA-2022</p>
+                            </div>
+                            <div>
+                                <p class="text-estudiosCurso">-English dot works 1, 2 y 3.
+                                    <br>
+                                    SENA-2022</p>
+                            </div>
+                            <div>
+                                <p class="text-estudiosCurso">-Principios de Photoshop.
+                                    <br>
+                                    DOMESTIKA-2022</p>
+                            </div>
+                            <div>
+                                <p class="text-estudiosCurso">-Desarrollo de nuevas estrategias comerciales.
+                                    <br>
+                                    SENA-2023</p>
+                            </div>
                         </div>
                     </div>
                   <hr class="divider">
@@ -402,8 +413,6 @@
                 </div>
             </div>
 
-
-
         <!--FOOTER-->
         <div class="row">
             <footer class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 footer">
@@ -473,9 +482,9 @@
     <!--JS ANIMACION SCROLL-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--LIBRERIA JQUERY-->
-    <script src="js/jquery-3.6.4.min.js"></script>
-    <!--CDN SLICK-->
-    <script src="js/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <!-- SLICK-->
+    <script src="js/slick/slick.min.js"></script>
     <!--AGREGANDO SCRIPT BOOTSTRAP-->
     <script src="js/bootstrap.bundle.min.js"></script>
     <!--AGREGANDO SCRIPT LOCAL-->

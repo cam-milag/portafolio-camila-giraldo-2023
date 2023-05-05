@@ -68,5 +68,11 @@ AOS.init({
   anchorPlacement: 'top-bottom',
 });
 
-//SLIDER JQUERY Y SLICK
 
+//LOADING
+
+window.onload = function(){
+  $('#onload').fadeOut();
+  $('#onload').removeClass('hidden');
+
+}
